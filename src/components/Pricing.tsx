@@ -12,28 +12,26 @@ const Pricing = () => {
       description: 'Perfect for businesses getting started with AI',
       features: [
         'Basic call analytics',
-        'Email automation templates',
-        'Standard integrations',
-        'Email support',
+        'Voice Capture',
+        'Professional integrations',
+        ' Capture Leads on the go',
         'Basic reporting'
       ],
-      cta: 'Refunds Within 30 Days',
+      cta: 'Refunds Accepted',
       popular: false
     },
     {
-      name: 'Data Report',
+      name: 'Codebase Debug/Auto-Patches',
       icon: <Crown className="h-6 w-6" />,
       monthlyPrice: 500,
-      description: 'For growing businesses who need comprehensive data insights',
+      description: 'Security and codebase debug within 24 hrs',
       features: [
         'Advanced analytics dashboard',
         'Complete CRM automation',
         'Premium integrations',
         'Priority support',
-        'Custom workflows',
-        'API access'
       ],
-      cta: 'Start Free Trial',
+      cta: '24hr setup or else refund',
       popular: true
     },
     {
@@ -44,12 +42,11 @@ const Pricing = () => {
       features: [
         'Unlimited support tickets',
         'Custom integrations',
-        'Dedicated success manager',
-        'Advanced security',
+        '24/7 support',
         'Team collaboration tools',
-        'Custom reporting'
+        'Constant feedback'
       ],
-      cta: 'Contact Sales',
+      cta: 'Contact Sales now',
       popular: false
     }
   ];
