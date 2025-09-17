@@ -29,6 +29,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <span className="text-xl font-bold text-neutralText">Aurivia Systems</span>
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">

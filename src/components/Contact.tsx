@@ -38,7 +38,7 @@ const Contact = () => {
     } finally {
       setIsSubmitting(false);
     }
-  ];
+  };
 
   if (submitted) {
     return (

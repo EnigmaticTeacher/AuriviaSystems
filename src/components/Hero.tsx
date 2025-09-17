@@ -52,12 +52,8 @@ const Hero = () => {
               <button
                 onClick={() => scrollToSection('#pricing')}
                 className="border border-primary text-primary hover:bg-primary hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 hover:shadow-lg flex items-center justify-center group"
-              Welcome to{' '}
-              <span className="text-primary">Aurivia</span>
                 View Pricing
               </button>
-              The core of adaptive AI infrastructure suited to tailor your autonomous decisions. 
-              Spend less time on data and more time closing deals.
 
           </div>
 
