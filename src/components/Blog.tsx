@@ -10,9 +10,8 @@ const Blog = () => {
     {
       title: 'How AI Lead Scoring Increased Our Deal Flow by 300%',
       excerpt: 'Learn how top investors are using predictive analytics to identify high-potential leads before their competitors.',
-      author: 'Sarah Chen',
       readTime: '5 min read',
-      date: 'Dec 15, 2024',
+      date: 'August 15, 2025',
       tags: ['AI', 'Case Studies'],
       image: '/images/hero-inspiration.png',
       featured: true
@@ -20,9 +19,8 @@ const Blog = () => {
     {
       title: 'The Future of Property Valuation: Beyond Traditional Comps',
       excerpt: 'Discover how machine learning models are revolutionizing property analysis with unprecedented accuracy.',
-      author: 'Dr. Maria Santos',
       readTime: '7 min read',
-      date: 'Dec 12, 2024',
+      date: 'July 12, 2025',
       tags: ['Property Valuation', 'AI'],
       image: '/images/texture.png',
       featured: false
@@ -30,9 +28,8 @@ const Blog = () => {
     {
       title: 'Automating Your Real Estate Outreach: A Complete Guide',
       excerpt: 'Step-by-step guide to setting up automated campaigns that convert 40% better than manual outreach.',
-      author: 'Marcus Rodriguez',
       readTime: '6 min read',
-      date: 'Dec 10, 2024',
+      date: 'June 10, 2025',
       tags: ['Automation', 'Case Studies'],
       image: '/images/hero-inspiration.png',
       featured: false
@@ -40,9 +37,8 @@ const Blog = () => {
     {
       title: '2024 Real Estate Market Predictions Using AI Analytics',
       excerpt: 'Our AI models predict market trends for the coming year. What should investors watch for?',
-      author: 'Jennifer Walsh',
       readTime: '8 min read',
-      date: 'Dec 8, 2024',
+      date: 'May 8, 2025',
       tags: ['Market Trends', 'AI'],
       image: '/images/texture.png',
       featured: false
@@ -50,9 +46,8 @@ const Blog = () => {
     {
       title: 'Case Study: How One Investor Scaled to 100 Properties',
       excerpt: 'From 5 to 100 properties in 18 months using AI automation. Here\'s exactly how they did it.',
-      author: 'David Kim',
       readTime: '10 min read',
-      date: 'Dec 5, 2024',
+      date: 'April 5, 2025',
       tags: ['Case Studies'],
       image: '/images/hero-inspiration.png',
       featured: false
@@ -60,9 +55,8 @@ const Blog = () => {
     {
       title: 'Building Your First Automated Property Analysis System',
       excerpt: 'Technical deep-dive into setting up automated property evaluation workflows that save 20+ hours per week.',
-      author: 'Alex Thompson',
       readTime: '12 min read',
-      date: 'Dec 3, 2024',
+      date: 'March 3, 2025',
       tags: ['Automation', 'Property Valuation'],
       image: '/images/texture.png',
       featured: false
