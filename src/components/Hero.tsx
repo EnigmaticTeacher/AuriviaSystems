@@ -52,6 +52,7 @@ const Hero = () => {
               <button
                 onClick={() => scrollToSection('#pricing')}
                 className="border border-primary text-primary hover:bg-primary hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 hover:shadow-lg flex items-center justify-center group"
+              >
                 View Pricing
               </button>
 
@@ -59,10 +60,11 @@ const Hero = () => {
 
           {/* Right Column - Lead Capture Form */}
           <div className="lg:pl-8">
+            <LeadCaptureForm />
+          </div>
+        </div>
       </div>
     </section>
-  )
-  )
   );
 };
 
