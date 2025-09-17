@@ -2,6 +2,24 @@ import React, { useState } from 'react';
 import { MapPin, Phone, Mail, Clock, Send } from 'lucide-react';
 import { createLead, Lead } from '../lib/supabase';
 
+const contactInfo = [
+  {
+    icon: <Phone className="w-6 h-6" />,
+    title: 'Phone',
+    details: ['020 7187 3093']
+  },
+  {
+    icon: <Mail className="w-6 h-6" />,
+    title: 'Email',
+    details: ['team@auriviasystem.com']
+  },
+  {
+    icon: <Clock className="w-6 h-6" />,
+    title: 'Business Hours',
+    details: ['Monday - Friday: 9:00 AM - 6:00 PM', 'Saturday - Sunday: Closed']
+  }
+];
+
 const Contact = () => {
   const [formData, setFormData] = useState<Partial<Lead>>({
     name: '',
