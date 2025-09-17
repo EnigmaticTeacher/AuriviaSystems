@@ -19,7 +19,7 @@ const supabase = createClient(
 const PRODUCTS = {
   starter: {
     monthly: 'price_starter_monthly', // Replace with actual Stripe price IDs
-    annual: 'price_starter_annual'
+    a
   },
   growth: {
     monthly: 'price_growth_monthly',
