@@ -199,7 +199,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-300 text-sm mb-4 md:mb-0">
-              © 2024 AI RealEstate. All rights reserved.
+              © 2024 Aurivia Systems. All rights reserved.
             </div>
             
             {/* Legal Links */}

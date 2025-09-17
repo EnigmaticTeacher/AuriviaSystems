@@ -65,6 +65,7 @@ const Hero = () => {
           <div className="lg:pl-8">
       </div>
     </section>
+  )
   );
 };
 
