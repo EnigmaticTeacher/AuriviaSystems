@@ -7,7 +7,7 @@
       "role": "Investment Manager",
       "city": "San Francisco",
       "message": "Interested in automating our lead qualification process",
-      "created_at": "2024-12-10T10:00:00Z"
+      "created_at": "2025-12-10T10:00:00Z"
     },
     {
       "name": "Maria Santos",
@@ -16,7 +16,7 @@
       "role": "Portfolio Manager", 
       "city": "Los Angeles",
       "message": "Need better property analysis tools for our portfolio",
-      "created_at": "2024-12-12T14:30:00Z"
+      "created_at": "2025-12-12T14:30:00Z"
     },
     {
       "name": "David Kim",
@@ -25,7 +25,7 @@
       "role": "Founder",
       "city": "Austin",
       "message": "Looking to scale our fix-and-flip operations with AI",
-      "created_at": "2024-12-15T09:15:00Z"
+      "created_at": "2025-12-15T09:15:00Z"
     }
   ],
   "blog_posts": [
@@ -33,7 +33,7 @@
       "title": "The ROI of AI in Real Estate: A Data-Driven Analysis",
       "excerpt": "We analyzed 500+ real estate investors using AI automation and found remarkable results...",
       "author": "Dr. Maria Santos",
-      "date": "2024-12-15",
+      "date": "2025-12-15",
       "read_time": "8 min",
       "tags": ["AI", "Data Analysis", "ROI"],
       "content": "# The ROI of AI in Real Estate: A Data-Driven Analysis\n\nReal estate investment has always been about making smart decisions quickly. But in today's fast-moving market, manual processes simply can't keep up with the volume and speed required to stay competitive...\n\n## Key Findings\n\n- **32% faster deal identification** using AI lead scoring\n- **28% improvement in investment accuracy** with automated property analysis\n- **60+ hours saved monthly** through workflow automation\n\n## The Data Behind the Success\n\nOur analysis of 500+ investors using AI automation revealed consistent patterns across different investment strategies..."
@@ -42,7 +42,7 @@
       "title": "5 Ways AI is Revolutionizing Property Analysis",
       "excerpt": "From automated comps to predictive modeling, discover how AI is changing the game for smart investors.",
       "author": "Alex Thompson",
-      "date": "2024-12-10",
+      "date": "2025-12-10",
       "read_time": "6 min",
       "tags": ["Property Analysis", "AI", "Technology"],
       "content": "# 5 Ways AI is Revolutionizing Property Analysis\n\nTraditional property analysis methods are becoming obsolete. Here's how AI is transforming the way successful investors evaluate opportunities...\n\n## 1. Automated Comparable Analysis\n\nAI can analyze thousands of comparable properties in seconds, providing more accurate valuations than manual methods...\n\n## 2. Predictive Market Modeling\n\nAdvanced algorithms predict market trends and property value fluctuations with unprecedented accuracy..."
