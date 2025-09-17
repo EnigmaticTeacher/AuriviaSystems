@@ -38,29 +38,6 @@ const Contact = () => {
     } finally {
       setIsSubmitting(false);
     }
-  };
-
-  const contactInfo = [
-    {
-      icon: <MapPin className="h-6 w-6" />,
-      title: 'Office',
-      details: ['123 Innovation Drive', 'San Francisco, CA 94107']
-    },
-    {
-      icon: <Phone className="h-6 w-6" />,
-      title: 'Phone',
-      details: ['+1 (555) 123-4567', 'Mon-Fri 9AM-6PM PST']
-    },
-    {
-      icon: <Mail className="h-6 w-6" />,
-      title: 'Email',
-      details: ['hello@airealestate.com', 'support@airealestate.com']
-    },
-    {
-      icon: <Clock className="h-6 w-6" />,
-      title: 'Support Hours',
-      details: ['Monday - Friday: 9AM - 6PM PST', 'Weekend: Emergency only']
-    }
   ];
 
   if (submitted) {
@@ -107,7 +84,7 @@ const Contact = () => {
             Get Started Today
           </h2>
           <p className="text-xl text-mutedText max-w-3xl mx-auto">
-            Ready to transform your real estate investment process? Let's discuss how AI automation can scale your portfolio.
+            Ready to transform your business process? Let's discuss how AI automation can scale your operations.
           </p>
         </div>
 

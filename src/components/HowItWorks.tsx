@@ -7,7 +7,7 @@ const HowItWorks = () => {
       number: '01',
       icon: <Database className="h-8 w-8" />,
       title: 'Connect Data',
-      description: 'Integrate your CRM, MLS, and lead sources for unified data management.'
+      description: 'Integrate your CRM and lead sources for unified data management.'
     },
     {
       number: '02',

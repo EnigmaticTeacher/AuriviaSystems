@@ -6,14 +6,14 @@ const Pricing = () => {
 
   const plans = [
     {
-      name: 'Starter',
+      name: 'AI Phone Caller',
       icon: <Zap className="h-6 w-6" />,
       monthlyPrice: 99,
       annualPrice: 999,
-      description: 'Perfect for individual investors getting started',
+      description: 'Perfect for businesses getting started with AI calling',
       features: [
-        '500 lead scores per month',
-        'Basic property analysis',
+        '500 AI calls per month',
+        'Basic call analytics',
         'Email automation templates',
         'Standard integrations',
         'Email support',
@@ -23,14 +23,14 @@ const Pricing = () => {
       popular: false
     },
     {
-      name: 'Growth',
+      name: 'Data Report',
       icon: <Crown className="h-6 w-6" />,
       monthlyPrice: 249,
       annualPrice: 2490,
-      description: 'For growing investors who need more power',
+      description: 'For growing businesses who need comprehensive data insights',
       features: [
-        '2,500 lead scores per month',
-        'Advanced property analysis',
+        '2,500 data reports per month',
+        'Advanced analytics dashboard',
         'Complete CRM automation',
         'Premium integrations',
         'Priority support',
@@ -42,13 +42,13 @@ const Pricing = () => {
       popular: true
     },
     {
-      name: 'Enterprise',
+      name: 'Customer Support',
       icon: <Building2 className="h-6 w-6" />,
       monthlyPrice: 499,
       annualPrice: 4990,
-      description: 'For large teams and investment firms',
+      description: 'For large teams and enterprise customer support',
       features: [
-        'Unlimited lead scoring',
+        'Unlimited support tickets',
         'White-label solutions',
         'Custom integrations',
         'Dedicated success manager',
@@ -178,14 +178,15 @@ const Pricing = () => {
         {/* Enterprise Callout */}
         <div className="mt-16 bg-gradient-to-r from-primary/10 to-accent/10 rounded-2xl p-8 text-center">
           <h3 className="text-2xl font-bold text-neutralText mb-4">
-            Need a Custom Solution?
+            Need Much More?
           </h3>
           <p className="text-mutedText mb-6 max-w-2xl mx-auto">
-            Enterprise plans include dedicated onboarding, custom integrations, and white-label options. 
-            Perfect for large investment firms and franchises.
+            Custom enterprise solutions include dedicated onboarding, custom integrations, and white-label options. 
+            Perfect for large businesses and organizations.
+            Perfect for large businesses and organizations.
           </p>
           <button className="bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-200 hover:shadow-lg">
-            Contact Sales Team
+            Get in Touch
           </button>
         </div>
       </div>

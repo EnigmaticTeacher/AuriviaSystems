@@ -28,9 +28,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <Zap className="h-8 w-8 text-primary mr-2" />
-            <span className="text-xl font-bold text-neutralText">AI RealEstate</span>
-          </div>
+            <span className="text-xl font-bold text-neutralText">Aurivia Systems</span>
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">

@@ -73,11 +73,10 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
-              <Zap className="h-8 w-8 text-primary mr-3" />
-              <span className="text-2xl font-bold">AI RealEstate</span>
+              <span className="text-2xl font-bold">Aurivia Systems</span>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Empowering real estate investors with AI automation to scale their portfolios faster and smarter.
+              Empowering businesses with AI automation to scale their operations faster and smarter.
             </p>
             
             {/* Contact Info */}

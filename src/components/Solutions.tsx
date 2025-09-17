@@ -7,105 +7,105 @@ const Solutions = () => {
   const features = [
     {
       icon: <Users className="h-6 w-6" />,
-      title: 'Lead Intake & Scoring',
-      description: 'AI-powered lead qualification with predictive scoring based on your historical success patterns.',
+      title: 'AI Customer Support',
+      description: 'AI-powered customer support with predictive responses based on your historical success patterns.',
       details: {
         points: [
-          'Automatic lead capture from multiple sources',
-          'Predictive scoring with 92%+ accuracy',
-          'Real-time lead prioritization',
-          'Custom scoring models for your market'
+          'Automatic customer inquiry handling from multiple sources',
+          'Predictive responses with 92%+ accuracy',
+          'Real-time customer prioritization',
+          'Custom support models for your business'
         ],
         mockData: {
-          title: 'Lead Score Dashboard',
+          title: 'Customer Support Dashboard',
           metrics: [
-            { label: 'High Score Leads', value: '23', color: 'text-green-600' },
-            { label: 'Total Leads Today', value: '147', color: 'text-primary' },
-            { label: 'Conversion Rate', value: '18.5%', color: 'text-accent' }
+            { label: 'High Priority Tickets', value: '23', color: 'text-green-600' },
+            { label: 'Total Inquiries Today', value: '147', color: 'text-primary' },
+            { label: 'Resolution Rate', value: '18.5%', color: 'text-accent' }
           ]
         }
       }
     },
     {
       icon: <Home className="h-6 w-6" />,
-      title: 'Property Analysis',
-      description: 'Automated comps, NOI calculations, and market analysis for faster investment decisions.',
+      title: 'Code Reviews & Auto Patches',
+      description: 'Automated code analysis, reviews, and patches for faster development decisions.',
       details: {
         points: [
-          'Instant comparable property analysis',
-          'NOI and cash flow projections',
-          'Market trend insights',
-          'Investment risk assessment'
+          'Instant code quality analysis',
+          'Automated patch generation',
+          'Development trend insights',
+          'Code risk assessment'
         ],
         mockData: {
-          title: 'Property Analysis',
+          title: 'Code Analysis',
           metrics: [
-            { label: 'ARV Estimate', value: '$325K', color: 'text-primary' },
-            { label: 'Cash Flow', value: '$2,300', color: 'text-green-600' },
-            { label: 'ROI Projection', value: '18.5%', color: 'text-accent' }
+            { label: 'Code Quality', value: '92%', color: 'text-primary' },
+            { label: 'Patches Applied', value: '47', color: 'text-green-600' },
+            { label: 'Efficiency Gain', value: '18.5%', color: 'text-accent' }
           ]
         }
       }
     },
     {
       icon: <Brain className="h-6 w-6" />,
-      title: 'CRM Automation',
-      description: 'Smart workflows that nurture leads and maintain relationships automatically.',
+      title: 'Website Design',
+      description: 'Smart design workflows that create and maintain websites automatically.',
       details: {
         points: [
-          'Automated follow-up sequences',
-          'Personalized message templates',
-          'Deal pipeline management',
-          'Contact relationship mapping'
+          'Automated design sequences',
+          'Personalized website templates',
+          'Project pipeline management',
+          'Client relationship mapping'
         ],
         mockData: {
-          title: 'Automation Status',
+          title: 'Design Status',
           metrics: [
-            { label: 'Active Campaigns', value: '12', color: 'text-primary' },
-            { label: 'Messages Sent', value: '1,247', color: 'text-accent' },
-            { label: 'Response Rate', value: '34%', color: 'text-green-600' }
+            { label: 'Active Projects', value: '12', color: 'text-primary' },
+            { label: 'Designs Created', value: '1,247', color: 'text-accent' },
+            { label: 'Client Satisfaction', value: '94%', color: 'text-green-600' }
           ]
         }
       }
     },
     {
       icon: <BarChart3 className="h-6 w-6" />,
-      title: 'Portfolio Insights',
-      description: 'Comprehensive dashboards and forecasting for your entire investment portfolio.',
+      title: 'AI Ad Creatives',
+      description: 'Comprehensive ad creation and optimization for your entire marketing portfolio.',
       details: {
         points: [
-          'Portfolio performance tracking',
+          'Ad performance tracking',
           'Market trend analysis',
           'Revenue forecasting',
-          'Investment opportunity alerts'
+          'Creative opportunity alerts'
         ],
         mockData: {
-          title: 'Portfolio Overview',
+          title: 'Ad Creative Overview',
           metrics: [
-            { label: 'Total Properties', value: '47', color: 'text-primary' },
+            { label: 'Active Campaigns', value: '47', color: 'text-primary' },
             { label: 'Monthly Revenue', value: '$24.3K', color: 'text-green-600' },
-            { label: 'Portfolio Growth', value: '+12.8%', color: 'text-accent' }
+            { label: 'Campaign Growth', value: '+12.8%', color: 'text-accent' }
           ]
         }
       }
     },
     {
       icon: <Bell className="h-6 w-6" />,
-      title: 'Deal Pipeline & Alerts',
-      description: 'Never miss an opportunity with intelligent alerts and pipeline management.',
+      title: 'Automated Outreach',
+      description: 'Never miss an opportunity with intelligent outreach and communication management.',
       details: {
         points: [
-          'Real-time deal alerts',
-          'Pipeline stage automation',
-          'Deadline reminders',
-          'Market opportunity notifications'
+          'Real-time outreach alerts',
+          'Communication stage automation',
+          'Follow-up reminders',
+          'Engagement opportunity notifications'
         ],
         mockData: {
-          title: 'Active Deals',
+          title: 'Active Outreach',
           metrics: [
-            { label: 'Hot Leads', value: '8', color: 'text-red-500' },
+            { label: 'Hot Prospects', value: '8', color: 'text-red-500' },
             { label: 'Under Review', value: '23', color: 'text-accent' },
-            { label: 'Closing Soon', value: '5', color: 'text-green-600' }
+            { label: 'Converting Soon', value: '5', color: 'text-green-600' }
           ]
         }
       }
@@ -117,10 +117,10 @@ const Solutions = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-neutralText mb-4">
-            Complete AI Solution for Real Estate Investors
+            Complete AI Solution for Business Automation
           </h2>
           <p className="text-xl text-mutedText max-w-3xl mx-auto">
-            Every tool you need to automate your investment workflow and scale your portfolio
+            Every tool you need to automate your business workflow and scale your operations
           </p>
         </div>
 

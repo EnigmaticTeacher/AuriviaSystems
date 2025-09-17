@@ -31,13 +31,12 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-4xl md:text-6xl font-bold text-neutralText leading-tight">
-                AI Automation for{' '}
-                <span className="text-primary">Real Estate</span>{' '}
-                Investors
+                Welcome to{' '}
+                <span className="text-primary">Aurivia</span>
               </h1>
               <p className="text-xl text-mutedText leading-relaxed max-w-2xl">
-                Automate lead scoring, property analysis, outreach, and portfolio insights — 
-                spend less time on data, more time closing deals.
+                The core of adaptive AI infrastructure suited to tailor your autonomous decisions. 
+                Spend less time on data and more time closing deals.
               </p>
             </div>
 
@@ -53,40 +52,17 @@ const Hero = () => {
               <button
                 onClick={() => scrollToSection('#pricing')}
                 className="border border-primary text-primary hover:bg-primary hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 hover:shadow-lg flex items-center justify-center group"
-              >
-                <Play className="mr-2 h-5 w-5" />
+              Welcome to{' '}
+              <span className="text-primary">Aurivia</span>
                 View Pricing
               </button>
-            </div>
+              The core of adaptive AI infrastructure suited to tailor your autonomous decisions. 
+              Spend less time on data and more time closing deals.
 
-            {/* Trust Bar */}
-            <div className="pt-8">
-              <p className="text-sm text-mutedText mb-4">Trusted integrations with:</p>
-              <div className="flex flex-wrap gap-6 items-center opacity-70">
-                {trustLogos.map((logo) => (
-                  <div key={logo} className="text-mutedText font-medium text-sm bg-white px-3 py-2 rounded-md shadow-sm">
-                    {logo}
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
 
           {/* Right Column - Lead Capture Form */}
           <div className="lg:pl-8">
-            <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-              <div className="mb-6">
-                <h3 className="text-2xl font-bold text-neutralText mb-2">
-                  Get Started Today
-                </h3>
-                <p className="text-mutedText">
-                  See how AI automation can transform your real estate business
-                </p>
-              </div>
-              <LeadCaptureForm />
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

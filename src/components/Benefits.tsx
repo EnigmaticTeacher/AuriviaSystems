@@ -6,13 +6,13 @@ const Benefits = () => {
     {
       icon: <TrendingUp className="h-8 w-8" />,
       title: 'Faster Deals',
-      description: 'AI-powered lead scoring identifies high-potential opportunities, cutting qualification time by 60%.',
+      description: 'AI-powered customer support identifies high-potential opportunities, cutting qualification time by 60%.',
       cta: 'Learn how'
     },
     {
       icon: <Brain className="h-8 w-8" />,
       title: 'Smarter Valuations',
-      description: 'Automated property analysis with accurate comps and NOI calculations for better investment decisions.',
+      description: 'Automated code reviews with accurate patches and website design for better business decisions.',
       cta: 'See features'
     },
     {
