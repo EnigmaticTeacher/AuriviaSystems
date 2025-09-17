@@ -8,33 +8,28 @@ const Pricing = () => {
     {
       name: 'AI Phone Caller',
       icon: <Zap className="h-6 w-6" />,
-      monthlyPrice: 99,
-      annualPrice: 999,
-      description: 'Perfect for businesses getting started with AI calling',
+      monthlyPrice: 500,
+      description: 'Perfect for businesses getting started with AI',
       features: [
-        '500 AI calls per month',
         'Basic call analytics',
         'Email automation templates',
         'Standard integrations',
         'Email support',
         'Basic reporting'
       ],
-      cta: 'Start Free Trial',
+      cta: 'Refunds Within 30 Days',
       popular: false
     },
     {
       name: 'Data Report',
       icon: <Crown className="h-6 w-6" />,
-      monthlyPrice: 249,
-      annualPrice: 2490,
+      monthlyPrice: 500,
       description: 'For growing businesses who need comprehensive data insights',
       features: [
-        '2,500 data reports per month',
         'Advanced analytics dashboard',
         'Complete CRM automation',
         'Premium integrations',
         'Priority support',
-        'Advanced dashboards',
         'Custom workflows',
         'API access'
       ],
@@ -44,15 +39,12 @@ const Pricing = () => {
     {
       name: 'Customer Support',
       icon: <Building2 className="h-6 w-6" />,
-      monthlyPrice: 499,
-      annualPrice: 4990,
-      description: 'For large teams and enterprise customer support',
+      monthlyPrice: 500,
+      description: 'For large customer requests and customer support',
       features: [
         'Unlimited support tickets',
-        'White-label solutions',
         'Custom integrations',
         'Dedicated success manager',
-        '24/7 phone support',
         'Advanced security',
         'Team collaboration tools',
         'Custom reporting'
