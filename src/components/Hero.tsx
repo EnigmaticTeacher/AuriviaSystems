@@ -56,6 +56,8 @@ const Hero = () => {
                 View Pricing
               </button>
 
+            </div>
+
           </div>
 
           {/* Right Column - Lead Capture Form */}
